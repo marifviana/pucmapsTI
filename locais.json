@@ -1,0 +1,39 @@
+[
+    {
+      "nome": "Posto Médico",
+      "coords": [-19.9185, -43.9988]
+    },
+    {
+      "nome": "Boca do Forno",
+      "coords": [-19.9180, -43.9994]
+    },
+    {
+      "nome": "Biblioteca",
+      "coords": [-19.9187, -44.0002]
+    },
+    {
+      "nome": "Prédio 43",
+      "coords": [-19.9189, -44.0006]
+    },
+    {
+      "nome": "Prédio 34",
+      "coords": [-19.9195, -44.0000]
+    },
+    {
+      "nome": "Teatro João Paulo II",
+      "coords": [-19.9192, -43.9989]
+    },
+    {
+      "nome": "DCE",
+      "coords": [-19.9190, -44.0010]
+    },
+    {
+      "nome": "Complexo Esportivo",
+      "coords": [-19.9201, -43.9997]
+    },
+    {
+      "nome": "Secretaria",
+      "coords": [-19.9184, -44.0004]
+    }
+  ]
+  

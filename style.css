@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #75856f;
+    color: white;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .icons i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  /* Ícone clicado */
+  .icons :hover {
+    color: #92a68a;
+  }
+  
+  /* Barra de pesquisa */
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+  
+  .search-bar input,
+  .search-bar button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    background-color: #92a68a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 600px) {
+    .search-bar {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .search-bar input {
+      flex: 1;
+      margin-right: 1rem;
+    }
+  }
+  
+  /* Mapa */
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #bcc499;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
+
+  /* Seção Sobre o PUC Maps */
+  .about-app {
+    padding: 2rem 1rem;
+    background-color: #f2f2f2; /* Mesmo fundo da barra de pesquisa para consistência */
+  }
+
+  .about-app h2 {
+    font-size: 1.8rem;
+    color: #75856f; /* Cor do cabeçalho para manter o tema */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 800px; /* Limita a largura para melhor legibilidade */
+    margin: 0 auto;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .about-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas para estética */
+    border: 2px solid #92a68a; /* Borda verde para combinar com o tema */
+  }
+
+  @media (min-width: 600px) {
+    .about-content {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+
+    .about-text {
+      flex: 1; /* O texto ocupa o espaço restante */
+    }
+
+    .about-content img {
+      max-width: 300px; /* Limita o tamanho da imagem em telas maiores */
+    }
+  }
