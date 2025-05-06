@@ -1,0 +1,40 @@
+{
+    "noticias": [
+      {
+        "titulo": "PUC Aberta",
+        "data": "06/05-09/05 - PUC Minas Coreu",
+        "descricao": "O PUC Aberta é a oportunidade perfeita para você explorar os cursos oferecidos por uma das melhores universidades do mundo. Mais do que uma simples mostra de profissões...",
+        "imagem": "pucaberta.jpg"
+      },
+      {
+        "titulo": "Vacinação contra a gripe",
+        "data": "Abril e Maio 2025 - Sala 404 do Complexo Esportivo",
+        "descricao": "O Instituto de Ciências Biológicas e da Saúde da PUC Minas, por meio do Departamento de Enfermagem e em parceria com a Secretaria Municipal de Saúde de Belo Horizonte...",
+        "imagem": "gripe.jpg"
+      },
+      {
+        "titulo": "Palestra Dom Serafim",
+        "data": "07/05 - Auditório 3",
+        "descricao": "A PUC Minas promoverá a palestra Dom Serafim, Cardeal Fernandes de Araújo - Construtor da Esperança, que será ministrada pelo Prof. Dr. Frei Luiz Antônio Pinheiro, OSA, com a...",
+        "imagem": "palestra.jpg"
+      },
+      {
+        "titulo": "Sejam bem-vindos à PUC!",
+        "data": "12/04/2025 - Complexo Esportivo",
+        "descricao": "Venham para o evento de recepção de calouros, que terá muitas novidades e surpresas! Vocês poderão conhecer a universidade, fazer novas amizades e começar essa jornada...",
+        "imagem": "boasvindas.jpg"
+      },
+      {
+        "titulo": "Comp Software Day",
+        "data": "21/03/2025 - Teatro PUC Minas",
+        "descricao": "Alunos da PUC Minas, não percam a palestra sobre a inauguração da nova Empresa Júnior, a COMP! Venham conhecer os projetos inovadores e as oportunidades que essa iniciativa...",
+        "imagem": "comp.jpg"
+      },
+      {
+        "titulo": "Festival de Primavera",
+        "data": "Data e local em @pastoralpucminas",
+        "descricao": "Combinando arte, cultura e criatividade, o festival promove encontros construídos a partir das relações humanas e do fazer artístico. É um espaço dedicado à criação e à expressão...",
+        "imagem": "festival.jpg"
+      }
+    ]
+  }

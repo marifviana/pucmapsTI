@@ -1,6 +1,6 @@
 [
     {
-      "nome": "Posto Médico",
+      "nome": "Posto Médico ",
       "coords": [-19.9185, -43.9988]
     },
     {
@@ -14,14 +14,6 @@
     {
       "nome": "Prédio 43",
       "coords": [-19.9189, -44.0006]
-    },
-    {
-      "nome": "Prédio 34",
-      "coords": [-19.9195, -44.0000]
-    },
-    {
-      "nome": "Teatro João Paulo II",
-      "coords": [-19.9192, -43.9989]
     },
     {
       "nome": "DCE",
