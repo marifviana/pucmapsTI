@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUC Maps</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fazer o link do fontawesome (ícones)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!--Fazer o link da biblioteca JS Leaflet (mapa)-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <!--Incluir o java script-->
+    <script src="lista.js" defer></script>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>PUC Maps - Lista de Locais</h1>
+        <!--Ícones da página-->
+        <div class="icons">
+          <a href="index.html"><i class="fas fa-home"></i></a>
+          <a href="lista.html"><i class="fas fa-list"></i></a>
+          <a href="#"><i class="fas fa-cog"></i></a>
+          <a href="#"><i class="fas fa-newspaper"></i></a>
+          <a href="favoritos.html"><i class="fa-solid fa-star"></i></a>
+        </div>
+    </header>
+    
+    <main>
+        <!--Os locais vão entrar aqui-->
+        <ul id="lista-locais"></ul>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p>&copy; 2025 - PUC Minas • Unidade Coração Eucarístico</p>
+    </footer>
+    
+</body>
+</html>
